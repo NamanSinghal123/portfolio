@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<title>NAMAN PORTFOLIO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="portfolio.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Montserrat", sans-serif
+  }
+
+  .row-padding img {
+    margin-bottom: 12px
+  }
+
+
+  .sidebar {
+    width: 120px;
+    background: #222;
+  }
+
+  #main {
+    margin-left: 120px
+  }
+
+  @media only screen and (max-width: 600px) {
+    #main {
+      margin-left: 0
+    }
+  }
+</style>
+
+<body class="black">
+
+  <nav class="sidebar bar-block small hide-small center">
+    <img src="/naman.jpg.jpg" style="width:100%">
+    <a href="#" class="bar-item button padding-large black">
+      <i class="fa fa-home xxlarge"></i>
+      <p>HOME</p>
+    </a>
+    <a href="#about" class="bar-item button padding-large hover-black">
+      <i class="fa fa-user xxlarge"></i>
+      <p>ABOUT</p>
+    </a>
+    <a href="#photos" class="bar-item button padding-large hover-black">
+      <i class="fa fa-eye xxlarge"></i>
+      <p>PHOTOS</p>
+    </a>
+    <a href="#contact" class="bar-item button padding-large hover-black">
+      <i class="fa fa-envelope xxlarge"></i>
+      <p>CONTACT</p>
+    </a>
+  </nav>
+
+  <div class="top hide-large hide-medium" id="myNavbar">
+    <div class="bar black opacity hover-opacity-off center small">
+      <a href="#" class="bar-item button" style="width:25% !important">HOME</a>
+      <a href="#about" class="bar-item button" style="width:25% !important">ABOUT</a>
+      <a href="#photos" class="bar-item button" style="width:25% !important">PHOTOS</a>
+      <a href="#contact" class="bar-item button" style="width:25% !important">CONTACT</a>
+    </div>
+  </div>
+
+  <div class="padding-large" id="main">
+  
+    <header class="container padding-32 center black" id="home">
+      <h1 class="jumbo"><span class="hide-small">I'm</span> Naman Singhal.</h1>
+      <p>Computer Engineer and Future Developer.</p>
+      <img src="naman.jpg.jpg" alt="boy" class="image" width="600" height="600">
+    </header>
+
+
+    <div class="content justify text-grey padding-64" id="about">
+      <h2 class="text-light-grey">About Me</h2>
+      <hr style="width:200px" class="opacity">
+      <p>I am pursuing my B.E from New Horizon College of Engineering.
+        I am Quick-Learner and ready to solve problems.
+        I want to be a Developer and develop real-time project which will help in Development of country.
+      </p>
+      <h3 class="padding-16 text-light-grey">My Skills</h3>
+      <p class="wide">C</p>
+      <div class="white">
+        <div class="dark-grey" style="height:28px;width:75%"></div>
+      </div>
+      <p class="wide">HTML</p>
+      <div class="white">
+        <div class="dark-grey" style="height:28px;width:70%"></div>
+      </div>
+      <p class="wide">CSS</p>
+      <div class="white">
+        <div class="dark-grey" style="height:28px;width:55%"></div>
+      </div>
+      <p class="wide">JavaScript</p>
+      <div class="white">
+        <div class="dark-grey" style="height:28px;width:45%"></div>
+      </div>
+      <p class="wide">JAVA</p>
+      <div class="white">
+        <div class="dark-grey" style="height:28px;width:65%"></div>
+      </div>
+      <p class="wide">Python</p>
+      <div class="white">
+        <div class="dark-grey" style="height:28px;width:80%"></div>
+      </div><br>
+
+      <div class="row center padding-16 section light-grey">
+        <div class="quarter section">
+          <span class="xlarge">3+</span><br>
+          TeamWork
+        </div>
+        <div class="quarter section">
+          <span class="xlarge">2+</span><br>
+          Projects Done
+        </div>
+        <div class="quarter section">
+          <span class="xlarge">6+</span><br>
+          Courses Done
+        </div>
+        <div class="quarter section">
+          <span class="xlarge">2+</span><br>
+          Interships done
+        </div>
+      </div>
+
+      <button class="button light-grey padding-large section">
+        <i class="fa fa-download"></i> Download Resume
+      </button>
+
+      
+      <div class="padding-64 content" id="photos">
+        <h2 class="text-light-grey">My Photos</h2>
+        <hr style="width:200px" class="opacity">
+
+        <div class="row-padding" style="margin:0 -16px">
+          <div class="half">
+            <img src="/n1.jpg" style="width:100%">
+          </div>
+
+          <div class="half">
+            <img src="/n2.jpg" style="width:100%">
+          </div>
+          
+        </div>
+        
+      </div>
+
+      <div class="padding-64 content text-grey" id="contact">
+        <h2 class="text-light-grey">Contact Me</h2>
+        <hr style="width:200px" class="opacity">
+
+        <div class="section">
+          <p><i class="fa fa-map-marker fa-fw text-white xxlarge margin-right"></i> Bangalore,India</p>
+          <p><i class="fa fa-phone fa-fw text-white xxlarge margin-right"></i> Phone: +91 8126955881</p>
+          <p><i class="fa fa-envelope fa-fw text-white xxlarge margin-right"> </i> Email: snaman@gmail.com</p>
+        </div><br>
+        <p>Let's get in touch. Send me a message:</p>
+
+        <form action="PORTFOLIO - Sheet1.pdf" target="_blank">
+          <p><input class="input padding-16" type="text" placeholder="Name" required name="Name"></p>
+          <p><input class="input padding-16" type="text" placeholder="Email" required name="Email"></p>
+          <p><input class="input padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+          <p><input class="input padding-16" type="text" placeholder="Message" required name="Message"></p>
+          <p>
+            <button class="button light-grey padding-large" type="submit">
+              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+          </p>
+        </form>
+      </div>
+      <footer class="content padding-64 text-grey xlarge">
+        <a href="https://www.instagram.com/naman_singhal1/"><i class="fa fa-instagram hover-opacity"></a>
+        <a href="https://www.linkedin.com/in/naman-singhal-a986a0227/"><i class="fa fa-linkedin hover-opacity"></i></a>
+       
+      </footer>
+      <div class="footer-sect mt-20 width-50">© 2023 namanSinghal.com. All Rights Reserved</div>
+    </div>
+
+</body>
+
+</html>
